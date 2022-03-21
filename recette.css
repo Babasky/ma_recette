@@ -1,0 +1,157 @@
+/* resoudre le problème d'affichage */
+
+*{
+    overflow: auto;
+}
+/* le body*/
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+/* categorie recette */
+
+p.categorie{
+    background-color: black;
+    color: white; 
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px 18px;
+}
+
+div.categorie{
+    margin-top: 60px;
+    margin-bottom: -20px;
+  
+/* le separateur*/
+    
+}
+
+div.separateur{
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+/* tout le contenu de la page blanche */
+div.contenu{
+    background-color: white;
+    margin: 0 10% 80px 10%;
+    padding: 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+div.centre{
+    text-align: center;
+    width: 100%;
+}
+
+p.description{
+    display: inline-block;
+    max-width: 400px;
+}
+
+div.info{
+    position: relative;
+}
+
+/* information sur fond transparent sur l'image*/
+table.info{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    color:white;
+    background-color: #6C829DC0;
+    height: 135px;
+}
+/*image*/
+img.info{
+    display: block;
+}
+
+table.info td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+table.info th{
+    vertical-align: bottom;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.colonne h2{
+    border-bottom: 5px solid #6C829D;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+div.colonne1{
+    display: inline-block;
+}
+
+div.colonne2 {
+    float: right;
+}
+
+div.colonne{
+    width: 45%;
+    margin-top: 15px;
+
+}
+
+div.ingredients p{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+/*Pour mettre les numéros dans les ronds*/
+table.preparation p.numero{
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 0;
+
+
+}
+/* Pour aligner les td preparation en haut*/
+table.preparation td{
+    vertical-align: top;
+}
+
+/* les étapes de la préparation*/
+table.preparation td.etape{
+    padding-left: 10px;
+    padding-bottom: 23px;
+    font-size: 14px;
+}
+
+table.preparation tr{
+    height: 40px;
+}
+
